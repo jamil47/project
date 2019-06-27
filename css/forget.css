@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+body{
+    background: url(../img/wt2.jpeg);
+    background-size: cover;
+}
+.main{
+    width: 450px;
+    margin: 10% auto;
+}
+.forgot{
+    background-color: #163C57;
+    padding: 20px;
+    border-radius: 30px;
+}
+.forgot h4{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin: 10px 0px
+    
+}
+.forgot img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.form-control{
+    width: 90%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+   
+}
+.btn{
+    background-color: blue;
+    padding: 10px 15px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    text-transform: uppercase;
+     margin-top:15px;
+    transition: all linear .3s;
+    
+    
+    
+}
+.btn:hover{
+    background: gray;
+    border-radius: 30px;
+}
